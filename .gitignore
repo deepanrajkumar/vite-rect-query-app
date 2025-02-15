@@ -40,6 +40,7 @@ dist-ssr
 *.log-*
 *.log/*
 *.log-*/
+public
 
 # System Files
 Thumbs.db

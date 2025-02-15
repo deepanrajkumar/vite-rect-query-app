@@ -1,7 +1,6 @@
 # Space craft list
 
-Top start app with json server run
-`npm start`
+This application is a simple space craft list built using Vite and React Query. It allows users to view a list of space crafts, add new space crafts, and delete existing ones. The data is managed using React Query for efficient data fetching and caching, and a JSON server is used to simulate a backend API.
 
 ## Installation
 
@@ -36,30 +35,3 @@ Top start app with json server run
    ```sh
    npm start
    ```
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch:
-
-   ```sh
-   git checkout -b feature-branch
-   ```
-
-3. Make your changes and commit them:
-
-   ```sh
-   git commit -m 'Add some feature'
-   ```
-
-4. Push to the branch:
-
-   ```sh
-   git push origin feature-branch
-   ```
-
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License.

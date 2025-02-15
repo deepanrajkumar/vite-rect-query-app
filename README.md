@@ -1,5 +1,8 @@
 # Space craft list
 
+Top start app with json server run
+`npm start`
+
 This application is a simple space craft list built using Vite and React Query. It allows users to view a list of space crafts, add new space crafts, and delete existing ones. The data is managed using React Query for efficient data fetching and caching, and a JSON server is used to simulate a backend API.
 
 ## Installation
@@ -7,7 +10,7 @@ This application is a simple space craft list built using Vite and React Query. 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/vite-rect-query-app.git
+   git clone https://github.com/deepanrajkumar/vite-rect-query-app.git
    ```
 
 2. Navigate to the project directory:

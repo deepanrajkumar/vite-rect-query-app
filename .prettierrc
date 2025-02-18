@@ -1,1 +1,21 @@
-{}
+{
+  "plugins": [
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-sort-imports",
+    "prettier-plugin-sort-json"
+  ],
+  "tailwindcss": {
+    "config": "./tailwind.config.js"
+  },
+  "sortImports": {
+    "ignoreCase": false,
+    "ignoreDeclarationSort": false,
+    "ignoreMemberSort": false,
+    "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
+    "declarationSyntaxSortOrder": ["none", "all", "multiple", "single"],
+    "allowSeparatedGroups": false
+  },
+  "sortJson": {
+    "ignoreCase": false
+  }
+}

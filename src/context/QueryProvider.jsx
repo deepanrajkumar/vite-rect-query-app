@@ -3,13 +3,13 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const queryClient = new QueryClient();
 
-const QueryClientContext = ({ children }) => {
+const QueryProvider = ({ children }) => {
   return (
     <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
   );
 };
-QueryClientContext.propTypes = {
+QueryProvider.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default QueryClientContext;
+export default QueryProvider;
